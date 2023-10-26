@@ -1,0 +1,60 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+.main {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.list {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items,
+.list .get-btn {
+  padding: 0.15rem 1.4rem;
+  font-weight: bold;
+}
+.list-items a {
+  color: black;
+}
+.get-btn {
+  border: 2px solid #1565d8;
+  border-radius: 8px;
+  height: 48px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 15px;
+}
+.list-items,
+.list .get-btn {
+  padding: 0.15rem 1.4rem;
+  font-weight: bold;
+}
+.main-content {
+  width: 50%;
+  padding: 0 3rem;
+}
+.whatwedo .card {
+  padding: 1.3rem 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.13);
+}
+.bs {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.13);
+}
+.whatwedo .card img {
+  margin-top: 6px;
+}
+footer .top-bar ~ ul li {
+  line-height: 40px;
+}
+.heart {
+  height: 60px;
+  width: 60px;
+  background: var(--blue);
+  border-radius: 50%;
+}
