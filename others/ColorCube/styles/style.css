@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+td,
+th {
+  width: 20px;
+  height: 20px;
+  /*  */
+  text-align: center;
+  background-color: #000000b5;
+  border: 3px solid white;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vh; */
+  height: 100vh;
+}
+
+.timer,
+.score {
+  font-size: 25px;
+  font-family: fira code;
+  margin: 10px 0;
+}
