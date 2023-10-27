@@ -44,8 +44,9 @@ ul {
 }
 .list-items,
 .list .get-btn {
-  padding: 0.15rem 1.4rem;
+  margin: 0.15rem 1.4rem;
   font-weight: bold;
+  cursor: pointer;
 }
 .list-items a {
   color: black;
